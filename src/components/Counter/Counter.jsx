@@ -2,13 +2,15 @@ import React from 'react';
 import './Counter.css';
 
 const Counter = () => {
-  <div className="Counter">
-    <span className="Counter__value">0</span>
+  return (
+    <div className="Counter">
+      <span className="Counter__value">0</span>
 
-    <div className="Counter__controls">
-      <button type="button">Add 1</button>
-      <button type="button">Substract 1</button>
+      <div className="Counter__controls">
+        <button type="button">+ 1</button>
+        <button type="button">- 1</button>
+      </div>
     </div>
-  </div>;
+  );
 };
 export default Counter;
