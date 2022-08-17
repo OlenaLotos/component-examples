@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 // import Counter from './Counter/Counter';
 // import Dropdown from './Dropdown/Dropdown';
-import TodoList from './TodosList/TodosList';
-import initialTodos from './todos.json';
+// import TodoList from './TodosList/TodosList';
+// import initialTodos from './todos.json';
 
 class App extends Component {
   state = {
-    todos: initialTodos,
+    // todos: initialTodos,
   };
 
   deleteTodo = todoId => {
@@ -40,11 +40,12 @@ class App extends Component {
         {/* <Counter /> */}
         {/* <Dropdown /> */}
 
-        <div>
-          <span>Total number of Todos: {totalTodoCount} </span>
-          <span>Number of completed Todos: {completedTodosCount} </span>
-        </div>
-        <TodoList todos={todos} onDeleteTodo={this.deleteTodo} />
+        {/* <TodoList todos={todos} onDeleteTodo={this.deleteTodo} /> */}
+
+        {/* <div> */}
+        {/* <span>Total number of Todos: {totalTodoCount} </span> */}
+        {/* <span>Number of completed Todos: {completedTodosCount} </span> */}
+        {/* </div> */}
       </div>
     );
   }
