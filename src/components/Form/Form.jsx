@@ -31,6 +31,8 @@ class Form extends Component {
 
   reset = () => {
     this.setState({ name: '', login: '' });
+    this.setState({ licence: false });
+    this.setState({ experience: 'junior' });
   };
 
   render() {
