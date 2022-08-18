@@ -1,6 +1,6 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
 
-body {
+/* body {
   margin: 0;
   background-color: white;
   color: black;
@@ -44,4 +44,4 @@ button {
   font: inherit;
   cursor: pointer;
   outline: none;
-}
+} */
